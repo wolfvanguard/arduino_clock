@@ -21,7 +21,7 @@ void setup(){
 
 void loop(){
     //LED displays only RED colour
-    digitalWrite(red, HIGH);
+    digitalWrite(red, LOW);
     digitalWrite(green, LOW);
-    digitalWrite(blue, LOW);
+    digitalWrite(blue, HIGH);
 }
